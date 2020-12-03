@@ -4,6 +4,12 @@ plugins {
     id 'java'
 }
 
+apply plugin: "war"
+
+war {
+    enabled = true
+}
+
 group = 'com.azoft'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
