@@ -1,5 +1,5 @@
 # Service for file downloading
-A service that allows you to download files by id or by name.
+A service that allows you to download files.
 If the client requests to download a file by id, then the file will be decoded from Base64 before sending.
 If the client requests to download a file by name, the file will be sent without decoding.
 # REST API Reference
