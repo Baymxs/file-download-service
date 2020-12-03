@@ -44,6 +44,11 @@ If the client requests to download a file by name, the file will be sent without
     "errorMessage":  "File with name [name] not found"
 }
 ```
+# Build
+To generate war, use the command
+```
+gradle war
+```
 # License
 MIT
 ----
